@@ -2,6 +2,8 @@
 
 ASE (All-Seeing Eye) protocol to HTTP.
 
+![](./screenshot.png)
+
 ## How to Install
 1. Rename the `.env-example` file to `.env`.
 2. Set `TOKEN` in `.env` to an alphanumeric string of **more than 16 characters**.
