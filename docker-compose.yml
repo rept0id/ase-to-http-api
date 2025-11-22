@@ -7,4 +7,5 @@ services:
       - "${PORT}:80" # you can set this from .env
     environment:
       - GIN_MODE=release
+      - TOKEN=${TOKEN}
     restart: unless-stopped

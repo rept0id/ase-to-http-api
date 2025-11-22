@@ -1,9 +1,13 @@
 package main
 
+// response (standard)
+
 type TypeRes struct {
 	Data     any `json:"Data"`
 	Metadata any `json:"Metadata"`
 }
+
+// ASE
 
 type TypeAseResPlayer struct {
 	Name  string
