@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  ase-to-http-api:
+    build: ./src/.
+    ports:
+      - "${PORT}:80" # you can set this from .env
+    environment:
+      - GIN_MODE=release
+    restart: unless-stopped
