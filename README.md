@@ -4,6 +4,10 @@ ASE (All-Seeing Eye) protocol to HTTP.
 
 ![](./screenshot.png)
 
+The All-Seeing Eye (ASE) protocol is a networking protocol used to query game servers for status information, such as active players, player count, map name and game type, often utilized by server browsers and tools.
+
+This solution is an API translating ASE to HTTP.
+
 ## How to Install
 1. Rename the `.env-example` file to `.env`.
 2. Set `TOKEN` in `.env` to an alphanumeric string of **more than 16 characters**.
